@@ -1,0 +1,3 @@
+public enum Categoria {
+    LACTEOS,PANADERIA,GRANOS,CARNES,FRUTAS,VERDURAS
+}
