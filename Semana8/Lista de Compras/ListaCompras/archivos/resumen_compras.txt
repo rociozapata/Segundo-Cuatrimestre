@@ -20,4 +20,27 @@ Ultimo producto: TomatesRESUMEN
 8 - Tomates
 Total de productos: 8
 Primer producto: Manzanas
+Ultimo producto: TomatesRESUMEN
+1 - Manzanas
+2 - Leche
+3 - Pan
+4 - Hueos
+5 - Queso
+6 - Arroz
+7 - Pollo
+8 - Tomates
+Total de productos: 8
+Primer producto: Manzanas
+Ultimo producto: Tomates
+RESUMEN
+1 - Manzanas
+2 - Leche
+3 - Pan
+4 - Hueos
+5 - Queso
+6 - Arroz
+7 - Pollo
+8 - Tomates
+Total de productos: 8
+Primer producto: Manzanas
 Ultimo producto: Tomates

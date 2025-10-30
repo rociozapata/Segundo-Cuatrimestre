@@ -2,102 +2,112 @@
 *** Lista de productos con subtotales ***
 Producto: Manzanas - (FRUTAS) - cantidad: 5Subtotal: $752,50
 ***Total por Categoria***
-LACTEOS: 9productos - $752,50
-PANADERIA: 3productos - $752,50
-GRANOS: 7productos - $752,50
-CARNES: 1productos - $752,50
-FRUTAS: 5productos - $752,50
-VERDURAS: 3productos - $752,50
+LACTEOS: 9 productos - $3090,50
+PANADERIA: 3 productos - $362,25
+GRANOS: 7 productos - $838,75
+CARNES: 1 productos - $890,50
+FRUTAS: 5 productos - $752,50
+VERDURAS: 3 productos - $660,90
 
-Total General: $6595,40Categoria mas cara: LACTEOS ($3090,50
+Total General: $6595,40
+Categoria mas cara: LACTEOS ($3090,50
 Categoria mas barata: PANADERIA ($362,25Producto: Leche - (LACTEOS) - cantidad: 2Subtotal: $560,00
 ***Total por Categoria***
-LACTEOS: 9productos - $560,00
-PANADERIA: 3productos - $560,00
-GRANOS: 7productos - $560,00
-CARNES: 1productos - $560,00
-FRUTAS: 5productos - $560,00
-VERDURAS: 3productos - $560,00
+LACTEOS: 9 productos - $3090,50
+PANADERIA: 3 productos - $362,25
+GRANOS: 7 productos - $838,75
+CARNES: 1 productos - $890,50
+FRUTAS: 5 productos - $752,50
+VERDURAS: 3 productos - $660,90
 
-Total General: $6595,40Categoria mas cara: LACTEOS ($3090,50
+Total General: $6595,40
+Categoria mas cara: LACTEOS ($3090,50
 Categoria mas barata: PANADERIA ($362,25Producto: Pan - (PANADERIA) - cantidad: 3Subtotal: $362,25
 ***Total por Categoria***
-LACTEOS: 9productos - $362,25
-PANADERIA: 3productos - $362,25
-GRANOS: 7productos - $362,25
-CARNES: 1productos - $362,25
-FRUTAS: 5productos - $362,25
-VERDURAS: 3productos - $362,25
+LACTEOS: 9 productos - $3090,50
+PANADERIA: 3 productos - $362,25
+GRANOS: 7 productos - $838,75
+CARNES: 1 productos - $890,50
+FRUTAS: 5 productos - $752,50
+VERDURAS: 3 productos - $660,90
 
-Total General: $6595,40Categoria mas cara: LACTEOS ($3090,50
+Total General: $6595,40
+Categoria mas cara: LACTEOS ($3090,50
 Categoria mas barata: PANADERIA ($362,25Producto: Huevos - (LACTEOS) - cantidad: 1Subtotal: $350,00
 ***Total por Categoria***
-LACTEOS: 9productos - $350,00
-PANADERIA: 3productos - $350,00
-GRANOS: 7productos - $350,00
-CARNES: 1productos - $350,00
-FRUTAS: 5productos - $350,00
-VERDURAS: 3productos - $350,00
+LACTEOS: 9 productos - $3090,50
+PANADERIA: 3 productos - $362,25
+GRANOS: 7 productos - $838,75
+CARNES: 1 productos - $890,50
+FRUTAS: 5 productos - $752,50
+VERDURAS: 3 productos - $660,90
 
-Total General: $6595,40Categoria mas cara: LACTEOS ($3090,50
+Total General: $6595,40
+Categoria mas cara: LACTEOS ($3090,50
 Categoria mas barata: PANADERIA ($362,25Producto: Queso - (LACTEOS) - cantidad: 2Subtotal: $900,50
 ***Total por Categoria***
-LACTEOS: 9productos - $900,50
-PANADERIA: 3productos - $900,50
-GRANOS: 7productos - $900,50
-CARNES: 1productos - $900,50
-FRUTAS: 5productos - $900,50
-VERDURAS: 3productos - $900,50
+LACTEOS: 9 productos - $3090,50
+PANADERIA: 3 productos - $362,25
+GRANOS: 7 productos - $838,75
+CARNES: 1 productos - $890,50
+FRUTAS: 5 productos - $752,50
+VERDURAS: 3 productos - $660,90
 
-Total General: $6595,40Categoria mas cara: LACTEOS ($3090,50
+Total General: $6595,40
+Categoria mas cara: LACTEOS ($3090,50
 Categoria mas barata: PANADERIA ($362,25Producto: Arroz - (GRANOS) - cantidad: 2Subtotal: $360,00
 ***Total por Categoria***
-LACTEOS: 9productos - $360,00
-PANADERIA: 3productos - $360,00
-GRANOS: 7productos - $360,00
-CARNES: 1productos - $360,00
-FRUTAS: 5productos - $360,00
-VERDURAS: 3productos - $360,00
+LACTEOS: 9 productos - $3090,50
+PANADERIA: 3 productos - $362,25
+GRANOS: 7 productos - $838,75
+CARNES: 1 productos - $890,50
+FRUTAS: 5 productos - $752,50
+VERDURAS: 3 productos - $660,90
 
-Total General: $6595,40Categoria mas cara: LACTEOS ($3090,50
+Total General: $6595,40
+Categoria mas cara: LACTEOS ($3090,50
 Categoria mas barata: PANADERIA ($362,25Producto: Pollo - (CARNES) - cantidad: 1Subtotal: $890,50
 ***Total por Categoria***
-LACTEOS: 9productos - $890,50
-PANADERIA: 3productos - $890,50
-GRANOS: 7productos - $890,50
-CARNES: 1productos - $890,50
-FRUTAS: 5productos - $890,50
-VERDURAS: 3productos - $890,50
+LACTEOS: 9 productos - $3090,50
+PANADERIA: 3 productos - $362,25
+GRANOS: 7 productos - $838,75
+CARNES: 1 productos - $890,50
+FRUTAS: 5 productos - $752,50
+VERDURAS: 3 productos - $660,90
 
-Total General: $6595,40Categoria mas cara: LACTEOS ($3090,50
+Total General: $6595,40
+Categoria mas cara: LACTEOS ($3090,50
 Categoria mas barata: PANADERIA ($362,25Producto: Tomates - (VERDURAS) - cantidad: 3Subtotal: $660,90
 ***Total por Categoria***
-LACTEOS: 9productos - $660,90
-PANADERIA: 3productos - $660,90
-GRANOS: 7productos - $660,90
-CARNES: 1productos - $660,90
-FRUTAS: 5productos - $660,90
-VERDURAS: 3productos - $660,90
+LACTEOS: 9 productos - $3090,50
+PANADERIA: 3 productos - $362,25
+GRANOS: 7 productos - $838,75
+CARNES: 1 productos - $890,50
+FRUTAS: 5 productos - $752,50
+VERDURAS: 3 productos - $660,90
 
-Total General: $6595,40Categoria mas cara: LACTEOS ($3090,50
+Total General: $6595,40
+Categoria mas cara: LACTEOS ($3090,50
 Categoria mas barata: PANADERIA ($362,25Producto: Yogurt - (LACTEOS) - cantidad: 4Subtotal: $1280,00
 ***Total por Categoria***
-LACTEOS: 9productos - $1280,00
-PANADERIA: 3productos - $1280,00
-GRANOS: 7productos - $1280,00
-CARNES: 1productos - $1280,00
-FRUTAS: 5productos - $1280,00
-VERDURAS: 3productos - $1280,00
+LACTEOS: 9 productos - $3090,50
+PANADERIA: 3 productos - $362,25
+GRANOS: 7 productos - $838,75
+CARNES: 1 productos - $890,50
+FRUTAS: 5 productos - $752,50
+VERDURAS: 3 productos - $660,90
 
-Total General: $6595,40Categoria mas cara: LACTEOS ($3090,50
+Total General: $6595,40
+Categoria mas cara: LACTEOS ($3090,50
 Categoria mas barata: PANADERIA ($362,25Producto: Fideos - (GRANOS) - cantidad: 5Subtotal: $478,75
 ***Total por Categoria***
-LACTEOS: 9productos - $478,75
-PANADERIA: 3productos - $478,75
-GRANOS: 7productos - $478,75
-CARNES: 1productos - $478,75
-FRUTAS: 5productos - $478,75
-VERDURAS: 3productos - $478,75
+LACTEOS: 9 productos - $3090,50
+PANADERIA: 3 productos - $362,25
+GRANOS: 7 productos - $838,75
+CARNES: 1 productos - $890,50
+FRUTAS: 5 productos - $752,50
+VERDURAS: 3 productos - $660,90
 
-Total General: $6595,40Categoria mas cara: LACTEOS ($3090,50
+Total General: $6595,40
+Categoria mas cara: LACTEOS ($3090,50
 Categoria mas barata: PANADERIA ($362,25

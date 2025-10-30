@@ -20,7 +20,6 @@ public class GestorArchivos {
     private void crearArchivoSiNoExiste() {
         File archivo = new File(rutaArchivo); // creo un nuevo archivo
         if (!archivo.exists()) { // si el archivo no existe, entra
-
             try (BufferedWriter escritor = new BufferedWriter(new FileWriter(rutaArchivo))) {
                 escritor.write("NOMBRE,APPELIDO,FECHA"); // header del archivo csv
                 escritor.newLine(); // salto de linea
@@ -51,19 +50,16 @@ public class GestorArchivos {
                 try {
                     String nombre = partes[0];
                     String apellido = partes[1];
-                    LocalDate fecha = LocalDate.parse(partes[2]); // transformo el string a formato fecha antes
-                                                                  // asignarlo a fecha
+                    LocalDate fecha = LocalDate.parse(partes[2]); // transformo el string a formato fecha antes de asignarlo a fecha
 
                     personas.add(new Persona(nombre, apellido, fecha)); // creo una nueva persona y la agrego a personas
                 } catch (Exception e) {
                     System.out.println("Error: " + e.getMessage());
                 }
             }
-
         } catch (IOException e) {
             System.out.println("Error: " + e.getMessage());
         }
-
         return personas; // retorna lista con todas las personas
     }
 
@@ -74,7 +70,7 @@ public class GestorArchivos {
 
         } catch (IOException e) {
             System.out.println("Error " + e.getMessage());
-        }
+        } 
     }
 
     public HashMap estadisticaMes(List<Persona> personas) {
@@ -107,5 +103,7 @@ public class GestorArchivos {
         }
         return sb.toString(); // retorna el Builder transformado a string
     }
+
+
 
 }

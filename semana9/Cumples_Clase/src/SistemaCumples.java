@@ -1,5 +1,4 @@
 import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Scanner;
@@ -41,12 +40,12 @@ public class SistemaCumples {
                         LocalDate fechaNacimiento = LocalDate.parse(fechaTexto); // asigno fechaTexto a fechaNacimiento
                         Persona nueva = new Persona(nombre,apellido,fechaNacimiento); // creo una persona con los datos ingresados
                         gestorArchivos.agregarPersona(nueva);                     //agrego persona nueva al archivo
-                        System.out.println("persona agregada correctamente");
+                        System.out.println("Persona agregada correctamente");
 
                     } catch (Exception e) {
                         System.out.println("Fecha mal formateada");
                     }
-                        break;
+                    break;
                 case 2:
                     List<Persona> personas = gestorArchivos.leerPersonas();
                     if (personas.isEmpty()) {
@@ -93,11 +92,11 @@ public class SistemaCumples {
 
                     System.out.println("Estadistica de cumpleaños por mes");
                     for(int i = 0; i <= 11; i++){
-                        int cantidad = mapa.getOrDefault(i, 0); // si en ese mes no hay cumple, coloca 0
-                        System.out.println(meses[i] + ": " + cantidad + "personas");
+                        // si en ese mes no hay cumple, coloca 0
+                        System.out.println(meses[i] + ": " + mapa.getOrDefault(i, 0)  + "personas");
                     }
                     break;
-                case 5:
+                case 5:  //acomodar este case porq si no encuentra coincidencias, no muestra nada
                     List<Persona> pApellido = gestorArchivos.leerPersonas();
                     if (pApellido.isEmpty()) {
                         System.out.println("No hay nada en el archivo");
@@ -105,8 +104,11 @@ public class SistemaCumples {
                     }
                     System.out.println("Ingrese el apellido a buscar: ");
                     String letras = scanner.nextLine();
-
+                    if(pApellido.contains(letras)){
                     System.out.println(gestorArchivos.buscarPorApellido(letras, pApellido)); // imprimo lo que retorna la funcion de busqueda
+                    } else {
+                        System.out.println("No se encontraron coincidencias");
+                    }
                     break;
                 case 6:
                     System.out.println("Saliendo de SISTEMA CUMPLES...");

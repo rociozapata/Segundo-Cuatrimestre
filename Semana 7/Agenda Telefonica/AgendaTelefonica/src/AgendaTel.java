@@ -6,7 +6,7 @@ public class AgendaTel {
 
     /*Constructor */
     public AgendaTel(){
-        this.contactos = new HashMap<>(); //se construye con un nuevo hashmap declarado previamente
+        this.contactos = new HashMap<>(); //se construye un nuevo hashmap declarado previamente
     }
 
     public void agregarContacto(String nombre, String telefono) throws AgendaException{
@@ -31,18 +31,18 @@ public class AgendaTel {
     }
 
     public void buscarTelefonoPorNombre(String nombreBuscado) throws AgendaException {
-        // containskey devuelve true, con el signo ! busco el false. sui esta en false se lanza la excepcion
+        // containskey devuelve true, con el signo ! busco el false. si esta en false se lanza la excepcion
         if (!contactos.containsKey(nombreBuscado.toLowerCase())) {
                 throw new AgendaException("El nombre buscado no existe en la agenda");
         }
-            //el get me trae el valor de nombreBuscado
+            //el get me trae el valor de nombreBuscado(clave)
             String telefono = contactos.get(nombreBuscado.toLowerCase());
             System.out.println("Contacto: " + nombreBuscado + " *Telefono: " + telefono);       
         }
     
     public void eliminarContacto(String nombreBuscado) throws AgendaException{
         if(!contactos.containsKey(nombreBuscado)){ // mismo if que buscartelef
-            throw new AgendaException("El contacto a elimiar no existe en la agenda");
+            throw new AgendaException("El contacto a eliminar no existe en la agenda");
         }
         String eliminar = contactos.remove(nombreBuscado); // asigno a una variable el eliminado para luego mostrarlo
         System.out.println("Contacto eliminado: " + eliminar);
@@ -56,7 +56,4 @@ public class AgendaTel {
             System.out.println("----------------------------------------------");
         }
     }
-
-
-
 }
