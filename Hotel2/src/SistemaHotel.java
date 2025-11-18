@@ -6,6 +6,7 @@ public class SistemaHotel {
     private HashMap<Integer, String> ocupadas;  //numeroHab, codigoReserva
     private final static Integer total_habitaciones = 50;
 
+    //constructor que inicializa dos nuevos hashmaps vacios
     public SistemaHotel(){
         this.reservas = new HashMap<>();
         this.ocupadas = new HashMap<>();
@@ -15,7 +16,7 @@ public class SistemaHotel {
         if (ocupadas.containsKey(reserva.getNumeroHabitacion())) {
             throw new IllegalStateException ("La habitacion ya esta ocupada");
         }
-
+        //Si la hab esta libre, crea la reserva
         reservas.put(reserva.getCodigoReserva(), reserva);
         ocupadas.put(reserva.getNumeroHabitacion(),reserva.getCodigoReserva());
         System.out.println("La reserva fue agregada con exito!");
@@ -23,8 +24,8 @@ public class SistemaHotel {
     }
 
     public void confirmarReserva(String codigoReserva) throws ReservaNoEncontradaException{
-        Reserva confirmar = buscarReservaPorCodigo(codigoReserva);
-        confirmar.setEstadoReserva(EstadoReserva.CONFIRMADA); 
+        Reserva confirmar = buscarReservaPorCodigo(codigoReserva); // busca la reserva 
+        confirmar.setEstadoReserva(EstadoReserva.CONFIRMADA); //cambia estado 
         System.out.println("La RESERVA " + codigoReserva + " fue confirmada. (Habitacion "+ confirmar.getNumeroHabitacion()+ "ocupada)");
         System.out.println();
     }

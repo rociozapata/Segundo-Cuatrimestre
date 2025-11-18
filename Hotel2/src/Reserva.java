@@ -8,6 +8,7 @@ public class Reserva {
     private EstadoReserva estado;
     private LocalDate fechaIngreso;
 
+    // constructor. aca el estado y la fecha estan setteados.
     public Reserva(String codigoReserva, String nombreHuesped, int numeroHabitacion, int cantidadNoches){
         this.codigoReserva = codigoReserva;
         this.nombreHuesped = nombreHuesped;
