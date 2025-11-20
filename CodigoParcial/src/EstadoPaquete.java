@@ -1,0 +1,3 @@
+public enum EstadoPaquete {
+    PENDIENTE, EN_TRANSITO, EN_REPARTO, ENTREGADO, DEVUELTO;
+}
