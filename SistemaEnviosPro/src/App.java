@@ -62,7 +62,7 @@ public class App {
                 peso = Double.parseDouble(pesoS);
                 validado = true;
             } catch (Exception e) {
-                System.out.println(e.getMessage());
+                System.out.println("Peso invalido " + e.getMessage());
             }
         } while (!validado);
         
