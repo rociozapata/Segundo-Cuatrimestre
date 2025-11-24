@@ -2,7 +2,7 @@ public class Perro extends Animal{
     private String raza;
 
     /* Constructor completo */
-    public Perro (String nombre, String especie, int edad){
+    public Perro (String nombre, String especie, int edad, String raza){
         super(nombre, especie, edad);
         this.raza = raza;
     }
@@ -26,10 +26,7 @@ public class Perro extends Animal{
     }
 
     public void jugar(){
-        System.out.println("El perro " + nombre + " esta jugando");
-    }
-
-
-    
+        System.out.println("El perro " + nombre + " de raza " + raza + " esta jugando");
+    } 
 
 }

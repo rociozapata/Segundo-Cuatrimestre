@@ -3,8 +3,7 @@ import java.util.ArrayList;
 
 public class MainInstrumento {
     public static void main(String[] args) {
-        
-
+    
         //Creo dos instrumentos de cuerdas
         Cuerda cuerda1 = new Cuerda("Guitarra", "Fender", 856.524, 6);
         Cuerda cuerda2 = new Cuerda("Bajo ", "Ibanez", 837.499, 4);
@@ -70,8 +69,6 @@ public class MainInstrumento {
             System.out.println();
             }         
             
-        }
-
-       
+        }  
     }
 }

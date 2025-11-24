@@ -2,10 +2,10 @@
 public class AppAnimal {
     public static void main(String[] args) {
         
-        Perro perroCompleto = new Perro("Atila", "perro", 11);
+        Perro perroCompleto = new Perro("Atila", "Perro", 11, "mestizo");
         Perro perroSimple = new Perro("Gaia", "perro");
 
-        Gato gatoCompleto = new Gato("Quiron", "gato", 4);
+        Gato gatoCompleto = new Gato("Quiron", "gato", 4, "gris con rayas negras");
         Gato gatoSimple = new Gato ("Pispi", "gato");
 
         System.out.println(perroCompleto);
@@ -17,11 +17,11 @@ public class AppAnimal {
         System.out.println(gatoSimple);
         System.out.println();
 
-        gatoCompleto.emitirSonido();
+        gatoSimple.emitirSonido();
         System.out.println();
         perroSimple.emitirSonido();
         System.out.println();
-        gatoSimple.ronronear();
+        gatoCompleto.ronronear();
         System.out.println();
         perroCompleto.jugar();
         System.out.println();

@@ -2,7 +2,7 @@ public class Gato extends Animal{
     private String color;
 
     /* Constructor completo */
-    public Gato (String nombre, String especie, int edad){
+    public Gato (String nombre, String especie, int edad, String color){
         super(nombre, especie, edad);
         this.color = color;
     }
@@ -19,7 +19,7 @@ public class Gato extends Animal{
     }
 
     public void ronronear(){
-        System.out.println("El gato " + nombre + " esta ronroneando");
+        System.out.println("El gato " + nombre + " de color " + color +  " esta ronroneando");
     }
 
 }

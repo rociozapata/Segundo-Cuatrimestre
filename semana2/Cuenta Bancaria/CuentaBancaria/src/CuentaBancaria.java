@@ -66,7 +66,7 @@ public class CuentaBancaria {
     }
 
     public void depositar(double monto){
-        if (activa == true && monto > 0) {
+        if (activa && monto > 0) {
             this.saldo = saldo + monto;
         }
         else {
@@ -75,7 +75,7 @@ public class CuentaBancaria {
     }
 
     public void extraer(double monto){
-        if (activa == true && saldo >= monto) {
+        if (activa && saldo >= monto) {
             this.saldo = saldo - monto;
             System.out.println("Extraccion :" + monto + "\n" + "Saldo: " + saldo + "\n");
         }
@@ -100,18 +100,19 @@ public class CuentaBancaria {
         }
     }
 
-    public void esCuentaVip (boolean vip){
+    public boolean esCuentaVip (){
+        boolean vip = false;
         if (saldo > 10000) {
             vip = true;
-            return;
         }
         else {
             vip = false;
         }
+        return vip;
     }
-    // no se como retornar el vip. no se si esta bien hecho el metodo de vip
+    
     public String getEstadoCuenta(){
-        return "Titular: " + titular + "\n" + "Numero Cuenta: " + numeroCuenta + "\n" + "Saldo (USD): " + saldo + "\n" + "Activa: " + activa + "\n" + "Cuenta VIP: "; 
+        return "Titular: " + titular + "\n" + "Numero Cuenta: " + numeroCuenta + "\n" + "Saldo (USD): " + saldo + "\n" + "Activa: " + activa + "\n" + "Cuenta VIP: " + esCuentaVip(); 
     }
 
     @Override
